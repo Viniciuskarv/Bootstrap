@@ -11,7 +11,7 @@
     <title>Portifólio</title>
     
     <style>
-      div#tabela{
+      main#tabela{
         display: flex;
   align-items: center;
   justify-content: space-around;
@@ -35,9 +35,9 @@
                 <!-- End Logo -->
 
                 <!-- Button Responsive -->
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <!-- End Button Responsive -->
 
@@ -45,13 +45,13 @@
                 <section class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white"  aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portifólio</a>
+                            <a class="nav-link text-white" href="#">Portifólio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link text-white" href="#">Contato</a>
                         </li>
                     </ul>
                 </section>
@@ -95,36 +95,68 @@
 
     </section>
   <!-- End Banner rotativo -->
-    <div id="tabela">
-
-      <div class="card " style="width: 18rem;">
-        <img src="https:/fakeimg.pl/300/" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Baby</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+  <!-- main -->
+    <div class="mt-4 mb-5">
+      <main id="tabela">
+        <div class="card " style="width: 18rem;">
+          <img src="https:/fakeimg.pl/300/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Baby</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-      </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="https:/fakeimg.pl/300/" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Modelos</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card" style="width: 18rem;">
+          <img src="https:/fakeimg.pl/300/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Modelos</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-      </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="https:/fakeimg.pl/300/" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Family</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card" style="width: 18rem;">
+          <img src="https:/fakeimg.pl/300/" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Family</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-      </div>
-
+      </main>
     </div>
+
+    <footer class="container-fluid text-white bg-dark">
+      <div class="row pt-5 pb-5">
+        <section class="col-md-5">
+          <h5>Album</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Baby</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Models</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">family</a>
+            </li>
+          </ul>
+        </section>
+        <section class="col-md-5">
+          <h5>Contato</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">tel: (351) 11111-1111</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">whatsApp (351) 11111-1111</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+  <!-- End main-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
